@@ -1,0 +1,721 @@
+{
+  "heavy_metals": {
+    "As": {
+      "name": "Arsenic",
+      "unit": "mg/L",
+      "permissible_limit": 0.01,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.01,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.01,
+          "max_value": 0.05,
+          "level": "Elevated Risk",
+          "diseases": ["Skin Lesions", "Hyperkeratosis", "Pigmentation Changes"],
+          "health_effects": ["Increased risk of skin damage and circulatory system issues."],
+          "symptoms": ["Skin thickening/discoloration", "Numbness in hands/feet"]
+        },
+        {
+          "min_value": 0.05,
+          "max_value": 0.1,
+          "level": "High Risk",
+          "diseases": ["Skin Cancer", "Lung Cancer", "Bladder Cancer", "Cardiovascular Disease", "Neurodevelopmental Effects (in children)"],
+          "health_effects": ["Significantly increased risk of cancer and severe skin disorders."],
+          "symptoms": ["Skin lesions that may become cancerous", "Persistent cough (lung cancer)", "Blood in urine (bladder cancer)", "Severe peripheral vascular disease"]
+        },
+        {
+          "min_value": 0.1,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Multiple Cancers (Skin, Lung, Bladder, Kidney)", "Blackfoot Disease (Severe Peripheral Vascular Disease)", "Death"],
+          "health_effects": ["Very high risk of mortality from cancer or cardiovascular failure."],
+          "symptoms": ["Gangrene in limbs", "Severe weight loss", "Organ failure"]
+        },
+        // (DATE : 19 2002)
+        // 2002 -2003
+      ]
+    },
+    "Pb": {
+      "name": "Lead",
+      "unit": "mg/L",
+      "permissible_limit": 0.01,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.01,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.01,
+          "max_value": 0.05,
+          "level": "Elevated Risk",
+          "diseases": ["Reduced IQ", "Learning Disabilities", "Anemia"],
+          "health_effects": ["Neurological and hematological effects, especially in children."],
+          "symptoms": ["Difficulty learning", "Shortened attention span", "Mild abdominal pain"]
+        },
+        {
+          "min_value": 0.05,
+          "max_value": 0.1,
+          "level": "High Risk",
+          "diseases": ["Severe Neurotoxicity", "Hypertension", "Renal Dysfunction", "Reproductive Problems"],
+          "health_effects": ["Widespread damage to the nervous system, kidneys, and cardiovascular system."],
+          "symptoms": ["Headaches", "Irritability", "Memory loss", "Slurred speech", "Seizures"]
+        },
+        {
+          "min_value": 0.1,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Encephalopathy", "Coma", "Death"],
+          "health_effects": ["Acute poisoning leading to potentially fatal brain swelling."],
+          "symptoms": ["Severe vomiting", "Stupor", "Convulsions"]
+        }
+      ]
+    },
+    "Cd": {
+      "name": "Cadmium",
+      "unit": "mg/L",
+      "permissible_limit": 0.003,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.003,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.003,
+          "max_value": 0.01,
+          "level": "Elevated Risk",
+          "diseases": ["Kidney Tubular Damage", "Osteoporosis"],
+          "health_effects": ["Early stages of kidney damage and bone mineral loss."],
+          "symptoms": ["Protein in urine (early sign)", "Bone pain"]
+        },
+        {
+          "min_value": 0.01,
+          "max_value": 0.05,
+          "level": "High Risk",
+          "diseases": ["Itai-Itai Disease (Severe Osteomalacia & Renal Failure)", "Lung Cancer (from inhalation, ingestion a risk factor)"],
+          "health_effects": ["Severe, irreversible kidney failure and painful bone deformities."],
+          "symptoms": ["Severe bone pain and fractures", "Kidney failure requiring dialysis"]
+        },
+        {
+          "min_value": 0.05,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Acute Poisoning", "Death from Renal or Respiratory Failure"],
+          "health_effects": ["Overwhelming toxicity to multiple organ systems."],
+          "symptoms": ["Vomiting", "Diarrhea", "Shock", "Acute kidney shutdown"]
+        }
+      ]
+    },
+    "Cr": {
+      "name": "Chromium (VI)",
+      "unit": "mg/L",
+      "permissible_limit": 0.05,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.05,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.05,
+          "max_value": 0.1,
+          "level": "Elevated Risk",
+          "diseases": ["Allergic Dermatitis", "Ulcers"],
+          "health_effects": ["Skin and mucous membrane irritation."],
+          "symptoms": ["Skin rashes", "Nasal irritation", "Upset stomach"]
+        },
+        {
+          "min_value": 0.1,
+          "max_value": 0.5,
+          "level": "High Risk",
+          "diseases": ["Kidney Damage", "Liver Damage", "Lung Cancer (strongest evidence from inhalation)"],
+          "health_effects": ["Damage to internal organs and increased cancer risk."],
+          "symptoms": ["Gastrointestinal ulcers", "Necrosis of the liver and kidneys"]
+        },
+        {
+          "min_value": 0.5,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Acute Renal Failure", "Liver Failure", "Death"],
+          "health_effects": ["Rapid failure of the body's detoxification organs."],
+          "symptoms": ["Hemorrhage", "Convulsions", "Coma"]
+        }
+      ]
+    },
+    "Hg": {
+      "name": "Mercury",
+      "unit": "mg/L",
+      "permissible_limit": 0.001,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.001,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.001,
+          "max_value": 0.002,
+          "level": "Elevated Risk",
+          "diseases": ["Neurodevelopmental Effects (in fetuses and children)"],
+          "health_effects": ["Subtle neurological damage impacting development."],
+          "symptoms": ["Delays in walking/talking", "Reduced cognitive test scores"]
+        },
+        {
+          "min_value": 0.002,
+          "max_value": 0.01,
+          "level": "High Risk",
+          "diseases": ["Minamata Disease (Neurological Syndrome)", "Tremors", "Vision & Hearing Loss"],
+          "health_effects": ["Severe and permanent damage to the central nervous system."],
+          "symptoms": ["Paresthesia (numbness)", "Ataxia (loss of coordination)", "Constricted visual field", "Muscle weakness"]
+        },
+        {
+          "min_value": 0.01,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Paralysis", "Birth Defects", "Death"],
+          "health_effects": ["Catastrophic and widespread neurological damage."],
+          "symptoms": ["Inability to speak", "Seizures", "Coma"]
+        }
+      ]
+    },
+    "Ni": {
+      "name": "Nickel",
+      "unit": "mg/L",
+      "permissible_limit": 0.07,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.07,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.07,
+          "max_value": 0.1,
+          "level": "Elevated Risk",
+          "diseases": ["Allergic Contact Dermatitis (Eczema)"],
+          "health_effects": ["Development of skin allergies."],
+          "symptoms": ["Skin rash", "Itching", "Redness (especially from jewelry contact)"]
+        },
+        {
+          "min_value": 0.1,
+          "max_value": 0.5,
+          "level": "High Risk",
+          "diseases": ["Asthma", "Chronic Bronchitis", "Lung Cancer (primarily inhalation)", "Nasal Cancer"],
+          "health_effects": ["Respiratory inflammation and increased cancer risk."],
+          "symptoms": ["Shortness of breath", "Wheezing", "Persistent cough"]
+        },
+        {
+          "min_value": 0.5,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Pneumonitis", "Cardiovascular Toxicity"],
+          "health_effects": ["Acute lung inflammation and heart problems."],
+          "symptoms": ["Coughing up blood", "Chest pain", "Rapid heart rate"]
+        }
+      ]
+    },
+    "Cu": {
+      "name": "Copper",
+      "unit": "mg/L",
+      "permissible_limit": 2.0,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 2.0,
+          "level": "Safe",
+          "diseases": ["None expected. Essential nutrient in these levels."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 2.0,
+          "max_value": 4.0,
+          "level": "Elevated Risk",
+          "diseases": ["Gastrointestinal Distress"],
+          "health_effects": ["Short-term acute toxicity."],
+          "symptoms": ["Nausea", "Vomiting", "Abdominal pain", "Diarrhea"]
+        },
+        {
+          "min_value": 4.0,
+          "max_value": 10.0,
+          "level": "High Risk",
+          "diseases": ["Liver Damage", "Kidney Damage"],
+          "health_effects": ["Long-term exposure can lead to organ damage."],
+          "symptoms": ["Jaundice (yellowing skin)", "Vomiting blood"]
+        },
+        {
+          "min_value": 10.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Hemolytic Anemia", "Acute Liver Failure", "Death"],
+          "health_effects": ["Massive red blood cell destruction and liver shutdown."],
+          "symptoms": ["Metallic taste", "Shock", "Coma"]
+        }
+      ]
+    },
+    "Zn": {
+      "name": "Zinc",
+      "unit": "mg/L",
+      "permissible_limit": 5.0,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 5.0,
+          "level": "Safe",
+          "diseases": ["None expected. Essential nutrient in these levels."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 5.0,
+          "max_value": 10.0,
+          "level": "Elevated Risk",
+          "diseases": ["Gastrointestinal Irritation"],
+          "health_effects": ["Short-term acute toxicity."],
+          "symptoms": ["Nausea", "Vomiting", "Abdominal cramps", "Diarrhea"]
+        },
+        {
+          "min_value": 10.0,
+          "max_value": 50.0,
+          "level": "High Risk",
+          "diseases": ["Copper Deficiency", "Anemia", "Neutropenia"],
+          "health_effects": ["Interferes with absorption of other essential metals."],
+          "symptoms": ["Fatigue", "Weakness", "Frequent infections"]
+        },
+        {
+          "min_value": 50.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Pancreatic Damage", "Renal Damage"],
+          "health_effects": ["Toxicity to internal organs."],
+          "symptoms": ["Dizziness", "Lethargy", "Difficulty walking"]
+        }
+      ]
+    },
+    "Fe": {
+      "name": "Iron",
+      "unit": "mg/L",
+      "permissible_limit": 0.3,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.3,
+          "level": "Safe",
+          "diseases": ["None expected. Essential nutrient in these levels."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.3,
+          "max_value": 1.0,
+          "level": "Elevated Risk",
+          "diseases": ["Aesthetic Problems"],
+          "health_effects": ["Unpleasant taste and staining."],
+          "symptoms": ["Metallic taste", "Red/brown staining of laundry/plumbing"]
+        },
+        {
+          "min_value": 1.0,
+          "max_value": 10.0,
+          "level": "High Risk",
+          "diseases": ["Hemochromatosis (exacerbation)", "Gastrointestinal Distress"],
+          "health_effects": ["Can worsen iron overload disorders and cause stomach issues."],
+          "symptoms": ["Nausea", "Vomiting", "Stomach pain", "Constipation"]
+        },
+        {
+          "min_value": 10.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Acute Iron Poisoning", "Metabolic Acidosis", "Liver Failure"],
+          "health_effects": ["Overwhelming toxicity, primarily a risk in children ingesting supplements."],
+          "symptoms": ["Vomiting blood", "Lethargy", "Rapid heart rate", "Shock"]
+        }
+      ]
+    },
+        "Se": {
+      "name": "Selenium",
+      "unit": "mg/L",
+      "permissible_limit": 0.04,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.04,
+          "level": "Safe",
+          "diseases": ["None expected. Essential nutrient in these levels."],
+          "health_effects": ["Antioxidant benefits, supports thyroid function."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.04,
+          "max_value": 0.08,
+          "level": "Elevated Risk",
+          "diseases": ["Selenosis (Chronic Toxicity)"],
+          "health_effects": ["Early stages of toxicity. Risk of nutritional imbalance."],
+          "symptoms": ["Garlic odor on breath", "Metallic taste", "Brittle hair/nails"]
+        },
+        {
+          "min_value": 0.08,
+          "max_value": 0.3,
+          "level": "High Risk",
+          "diseases": ["Neurological Damage", "Liver Damage"],
+          "health_effects": ["Overt selenium poisoning leading to organ damage."],
+          "symptoms": ["Nausea", "Diarrhea", "Fatigue", "Irritability", "Peripheral neuropathy"]
+        },
+        {
+          "min_value": 0.3,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Cirrhosis", "Pulmonary Edema", "Death"],
+          "health_effects": ["Acute failure of the liver and respiratory system."],
+          "symptoms": ["Hair loss", "Skin lesions", "Severe respiratory distress", "Kidney failure"]
+        }
+      ]
+    },
+    "Al": {
+      "name": "Aluminium",
+      "unit": "mg/L",
+      "permissible_limit": 0.2,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.2,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.2,
+          "max_value": 0.5,
+          "level": "Elevated Risk",
+          "diseases": ["Aesthetic Problems"],
+          "health_effects": ["Unpleasant taste and potential sediment."],
+          "symptoms": ["Cloudy water", "Deposits in plumbing"]
+        },
+        {
+          "min_value": 0.5,
+          "max_value": 2.0,
+          "level": "High Risk",
+          "diseases": ["Neurodevelopmental Effects (theoretical)", "Bone Toxicity (in susceptible individuals)"],
+          "health_effects": ["Potential for bioaccumulation and toxicity, though evidence from water is weak."],
+          "symptoms": []
+        },
+        {
+          "min_value": 2.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Encephalopathy (in patients with impaired kidney function)"],
+          "health_effects": ["Toxicity primarily a risk for dialysis patients exposed via medical fluids."],
+          "symptoms": ["Speech disorders", "Tremors", "Seizures", "Dementia-like symptoms"]
+        }
+      ]
+    },
+    "B": {
+      "name": "Boron",
+      "unit": "mg/L",
+      "permissible_limit": 2.4,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 2.4,
+          "level": "Safe",
+          "diseases": ["None expected. Possibly essential for human health."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 2.4,
+          "max_value": 5.0,
+          "level": "Elevated Risk",
+          "diseases": ["Reproductive and Developmental Toxicity"],
+          "health_effects": ["Potential risk to fetal development based on animal studies."],
+          "symptoms": []
+        },
+        {
+          "min_value": 5.0,
+          "max_value": 15.0,
+          "level": "High Risk",
+          "diseases": ["Testicular Atrophy", "Developmental Delays"],
+          "health_effects": ["Adverse effects on male reproductive system and development."],
+          "symptoms": ["Nausea", "Vomiting", "Diarrhea"]
+        },
+        {
+          "min_value": 15.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Acute Gastrointestinal Inflammation", "Shock"],
+          "health_effects": ["Corrosive effects on the gastrointestinal tract."],
+          "symptoms": ["Severe vomiting and diarrhea", "Headache", "Skin rash ('boron burns')"]
+        }
+      ]
+    },
+    "Ba": {
+      "name": "Barium",
+      "unit": "mg/L",
+      "permissible_limit": 1.4,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 1.4,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 1.4,
+          "max_value": 4.0,
+          "level": "Elevated Risk",
+          "diseases": ["Hypertension", "Cardiac Arrhythmias"],
+          "health_effects": ["Can interfere with potassium channels, affecting heart muscle."],
+          "symptoms": ["Breathing difficulties", "Increased blood pressure"]
+        },
+        {
+          "min_value": 4.0,
+          "max_value": 10.0,
+          "level": "High Risk",
+          "diseases": ["Severe Hypertension", "Ventricular Fibrillation"],
+          "health_effects": ["Potentially life-threatening effects on the cardiovascular system."],
+          "symptoms": ["Muscle weakness", "Tremors", "Cardiac arrest"]
+        },
+        {
+          "min_value": 10.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Acute Poisoning", "Paralysis", "Death"],
+          "health_effects": ["Rapid onset of severe neurological and cardiovascular toxicity."],
+          "symptoms": ["Violent vomiting/cramps", "Diarrhea", "Complete paralysis"]
+        }
+      ]
+    },
+    "Ag": {
+      "name": "Silver",
+      "unit": "mg/L",
+      "permissible_limit": 0.1,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.1,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.1,
+          "max_value": 0.5,
+          "level": "Elevated Risk",
+          "diseases": ["Argyria (Permanent Skin Discoloration)"],
+          "health_effects": ["Irreversible blue-gray pigmentation of skin, eyes, and internal organs."],
+          "symptoms": ["Gradual skin staining (first in sun-exposed areas)"]
+        },
+        {
+          "min_value": 0.5,
+          "max_value": 2.0,
+          "level": "High Risk",
+          "diseases": ["Organ Damage", "Ocular Argyria"],
+          "health_effects": ["Accumulation in kidneys, liver, and eyes causing functional damage."],
+          "symptoms": ["Vision impairment", "Kidney inflammation"]
+        },
+        {
+          "min_value": 2.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Seizures", "Respiratory Failure"],
+          "health_effects": ["Acute toxicity affecting the nervous system."],
+          "symptoms": ["Shock", "Coma"]
+        }
+      ]
+    },
+    "Mo": {
+      "name": "Molybdenum",
+      "unit": "mg/L",
+      "permissible_limit": 0.07,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.07,
+          "level": "Safe",
+          "diseases": ["None expected. Essential nutrient in these levels."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.07,
+          "max_value": 0.2,
+          "level": "Elevated Risk",
+          "diseases": ["Gout-like Symptoms"],
+          "health_effects": ["Interferes with copper metabolism and can cause uric acid buildup."],
+          "symptoms": ["Joint pain (especially in knuckles)", "Hyperuricemia"]
+        },
+        {
+          "min_value": 0.2,
+          "max_value": 0.5,
+          "level": "High Risk",
+          "diseases": ["Copper Deficiency", "Anemia"],
+          "health_effects": ["Induces secondary copper deficiency, leading to blood and metabolic issues."],
+          "symptoms": ["Fatigue", "Weakness", "Paleness"]
+        },
+        {
+          "min_value": 0.5,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Severe Copper Deficiency", "Growth Retardation"],
+          "health_effects": ["Profound nutritional imbalance and developmental problems."],
+          "symptoms": ["Bone deformities", "Neurological deterioration"]
+        }
+      ]
+    },
+    "Sb": {
+      "name": "Antimony",
+      "unit": "mg/L",
+      "permissible_limit": 0.02,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.02,
+          "level": "Safe",
+          "diseases": ["None expected from drinking water exposure."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.02,
+          "max_value": 0.1,
+          "level": "Elevated Risk",
+          "diseases": ["Cardiotoxicity", "Gastrointestinal Irritation"],
+          "health_effects": ["Early toxic effects on the heart and lining of the stomach."],
+          "symptoms": ["Nausea", "Vomiting", "Abdominal pain"]
+        },
+        {
+          "min_value": 0.1,
+          "max_value": 0.5,
+          "level": "High Risk",
+          "diseases": ["Liver Damage", "Respiratory Depression"],
+          "health_effects": ["Hepatotoxicity and impacts on the central nervous system."],
+          "symptoms": ["Headache", "Dizziness", "Depression"]
+        },
+        {
+          "min_value": 0.5,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Acute Poisoning", "Death"],
+          "health_effects": ["Violent irritation of the gastrointestinal tract leading to shock."],
+          "symptoms": ["Violent vomiting", "Watery diarrhea", "Cardiac arrest"]
+        }
+      ]
+    },
+    "Sn": {
+      "name": "Tin",
+      "unit": "mg/L",
+      "permissible_limit": 2.0,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 2.0,
+          "level": "Safe",
+          "diseases": ["None expected from inorganic tin in drinking water."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 2.0,
+          "max_value": 20.0,
+          "level": "Elevated Risk",
+          "diseases": ["Gastrointestinal Irritation"],
+          "health_effects": ["Short-term acute toxicity."],
+          "symptoms": ["Nausea", "Abdominal cramps", "Vomiting", "Diarrhea"]
+        },
+        {
+          "min_value": 20.0,
+          "max_value": 100.0,
+          "level": "High Risk",
+          "diseases": ["Liver Damage", "Anemia"],
+          "health_effects": ["Toxicity to organs from very high exposure."],
+          "symptoms": ["Headache", "Fatigue", "Jaundice (yellowing skin)"]
+        },
+        {
+          "min_value": 100.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Neurotoxicity (from organotin compounds)", "Death"],
+          "health_effects": ["Note: Severe toxicity is primarily associated with organic forms (e.g., TBT), not inorganic tin in water."],
+          "symptoms": ["Severe neurological symptoms", "Immunotoxicity"]
+        }
+      ]
+    },
+    "Mn": {
+      "name": "Manganese",
+      "unit": "mg/L",
+      "permissible_limit": 0.4,
+      "risk_levels": [
+        {
+          "min_value": 0.0,
+          "max_value": 0.4,
+          "level": "Safe",
+          "diseases": ["None expected. Essential nutrient in these levels."],
+          "health_effects": ["No significant health risk."],
+          "symptoms": []
+        },
+        {
+          "min_value": 0.4,
+          "max_value": 1.0,
+          "level": "Elevated Risk",
+          "diseases": ["Aesthetic Problems", "Neurological Effects (subtle)"],
+          "health_effects": ["Staining and potential for subtle neurotoxic effects in vulnerable populations."],
+          "symptoms": ["Black staining of plumbing", "Unpleasant taste", "Possible cognitive/motor function changes"]
+        },
+        {
+          "min_value": 1.0,
+          "max_value": 5.0,
+          "level": "High Risk",
+          "diseases": ["Manganism (Parkinsonian Syndrome)"],
+          "health_effects": ["Irreversible neurological damage similar to Parkinson's disease."],
+          "symptoms": ["Tremors", "Slowed movement", "Muscle stiffness", "Loss of balance"]
+        },
+        {
+          "min_value": 5.0,
+          "max_value": 999.0,
+          "level": "Severe Risk",
+          "diseases": ["Severe Neurotoxicity", "Psychiatric Symptoms"],
+          "health_effects": ["Profound and debilitating damage to the central nervous system."],
+          "symptoms": ["Hallucinations", "Aggression", "Severe Parkinsonism", "Inability to walk"]
+          // disesases severiyt
+        }
+      ]
+    }
+  }
+}
+
+// 710 ---->>>>> 10 MILLTION ++ 
+// FEED TO BIG DATA 
+
+// extend it 
+// disesaes severity, spread of  disease latiture longitude radis, ...............
+
+// 5.0 -> WHO -> "Severe Neurotoxicity", "Psychiatric Symptoms"
+//             -> FALANA DHIMKANA ->     FALANA DHIMKANA 
+//          DATA INGEST, DATA CHANGE, ENGINE MUTABLE, ENGINE RESPOND TO OTHER SERVICES(FE, BE, MS)
+
+// HEAVYMETAL COMPOUNDS(DERIVATTIVEIS ENGINE)

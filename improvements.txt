@@ -1,0 +1,21 @@
+1. secure(token access(token grants)) routes expose ->  web interface(_to change the core values as well ingestion pipeline) -> core data set(elements, disesaes, base levels etc ),  pre - process - unit acceptance 
+
+2. mappings frontend showcase LEVEL -->>DISEASE  ETC ETC 
+
+3. BULK ROUTES(APIS) // CURRENT LAT+ LONG -> REPONSED 
+               // INDIA LAT +LONG --> ASYNC CODE 
+
+
+4. MEGA META DATA --> CURRENT LAT/ LONG ->> DATA SHOW 
+                  --> ALL OVER THE INDIA DATA EFFECT
+                  --> disesaes severity, spread of  disease latiture longitude radius  ETC ETC 
+
+5. ENGINE MUTABLE 
+
+6. DATA VERSIONING(2002, 2003) AND TIME SERIES DATA ( ML MODEL TRAIN )
+
+7. BIG DATA -->  FEED TO BIG DATA (MONGO DB ON STERIODS)(DATALAKE, DATAWAREHOUSE)
+
+8. PRECAUTIONS ENGINE WILL BE HELD DIFFERENT
+
+9. HEAVYMETAL COMPOUNDS (DERIVATTIVEIS ENGINE)
