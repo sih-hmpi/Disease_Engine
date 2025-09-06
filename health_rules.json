@@ -701,7 +701,7 @@
           "diseases": ["Severe Neurotoxicity", "Psychiatric Symptoms"],
           "health_effects": ["Profound and debilitating damage to the central nervous system."],
           "symptoms": ["Hallucinations", "Aggression", "Severe Parkinsonism", "Inability to walk"]
-          // disesases severiyt
+          // disesases severiyt number (adhd(7.2) and cancer(9.5))  // kaggle 
         }
       ]
     }
@@ -717,5 +717,5 @@
 // 5.0 -> WHO -> "Severe Neurotoxicity", "Psychiatric Symptoms"
 //             -> FALANA DHIMKANA ->     FALANA DHIMKANA 
 //          DATA INGEST, DATA CHANGE, ENGINE MUTABLE, ENGINE RESPOND TO OTHER SERVICES(FE, BE, MS)
-
-// HEAVYMETAL COMPOUNDS(DERIVATTIVEIS ENGINE)
+// 
+// HEAVYMETAL COMPOUNDS(DERIVATTIVEIS ENGINE)  
