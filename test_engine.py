@@ -68,6 +68,26 @@ def test_engine():
         arsenic_results = engine.evaluate_sample(arsenic_sample)
         print(json.dumps(arsenic_results, indent=2))
         
+        print("\n" + "="*50)
+        print("🧪 Testing bulk sample evaluation...")
+        bulk_samples = [
+            {
+                "Location": "Bulk Site 1",
+                "State": "Bulk State",
+                "Fe (ppm)": 0.4,
+                "As (ppb)": 10,
+                "Pb (ppm)": 0.01
+            },
+            {
+                "Location": "Bulk Site 2",
+                "State": "Bulk State",
+                "Fe (ppm)": 0.1,
+                "As (ppb)": 2,
+                "Pb (ppm)": 0.005
+            }
+        ]
+        bulk_results = engine.evaluate_bulk_samples(bulk_samples)
+        print(json.dumps(bulk_results, indent=2))
         print("\n✅ All tests passed!")
         
     except Exception as e:
@@ -77,3 +97,4 @@ def test_engine():
 
 if __name__ == "__main__":
     test_engine()
+

@@ -1,0 +1,1303 @@
+[
+  {
+    "element": "Arsenic (As)",
+    "reactions_with_heavy_metals": [
+      "As + Cd → Cd3As2",
+      "As + Cu → Cu3As",
+      "As + Fe → FeAs",
+      "As + Mn → MnAs",
+      "As + Zn → Zn3As2",
+      "As + Ni → NiAs",
+      "As + Pb → Pb3As2",
+      "As + Sb → SbAs",
+      "As + Sn → SnAs2",
+      "As + Cr → CrAs",
+      "As + Hg → Hg3As2",
+      "As + Co → CoAs",
+      "As + Bi → BiAs"
+    ],
+    "reactions_with_environment": [
+      "2 As + 3 O2 → 2 As2O3",
+      "2 As + 5 O2 → 2 As2O5",
+      "2 As + 3 S → As2S3",
+      "As + 3 Cl2 → 2 AsCl3",
+      "As + 3 H2 → 2 AsH3",
+      "As + 5 HNO3 → H3AsO4 + 5 NO2 + H2O",
+      "As + 3 H2SO4 → As2(SO4)3 + 3 H2",
+      "As + 2 CO → AsCO2",
+      "As + CH4 → As(CH3)3",
+      "As + 2 HCl → AsCl2 + H2"
+    ],
+    "compounds_found": [
+      "Cd3As2", "Cu3As", "FeAs", "MnAs", "Zn3As2", "NiAs", "Pb3As2", "SbAs", "SnAs2", "CrAs", "Hg3As2", "CoAs", "BiAs",
+      "As2O3", "As2O5", "As2S3", "AsCl3", "AsH3", "H3AsO4", "As2(SO4)3", "AsCO2", "As(CH3)3", "AsCl2"
+    ]
+  },
+  {
+    "element": "Lead (Pb)",
+    "reactions_with_heavy_metals": [
+      "Pb + As → Pb3As2",
+      "Pb + Cd → PbCd2",
+      "Pb + Cu → PbCu3",
+      "Pb + Fe → PbFe2O4",
+      "Pb + Mn → PbMnO2",
+      "Pb + Zn → PbZn2",
+      "Pb + Ni → PbNiO2",
+      "Pb + Sb → PbSb2",
+      "Pb + Sn → PbSn3",
+      "Pb + Cr → PbCrO4",
+      "Pb + Hg → PbHg",
+      "Pb + Co → PbCo2",
+      "Pb + Bi → PbBi"
+    ],
+    "reactions_with_environment": [
+      "2 Pb + O2 → 2 PbO",
+      "Pb + Cl2 → PbCl2",
+      "Pb + S → PbS",
+      "Pb + 2 HNO3 → Pb(NO3)2 + H2",
+      "Pb + 2 H2SO4 → Pb(SO4)2 + 2 H2",
+      "Pb + SO2 → PbSO3",
+      "Pb + CO2 → PbCO3",
+      "Pb + N2 → PbN2",
+      "Pb + 2 HCl → PbCl2 + H2",
+      "Pb + H2O → Pb(OH)2"
+    ],
+    "compounds_found": [
+      "Pb3As2", "PbCd2", "PbCu3", "PbFe2O4", "PbMnO2", "PbZn2", "PbNiO2", "PbSb2", "PbSn3", "PbCrO4", "PbHg", "PbCo2", "PbBi",
+      "PbO", "PbCl2", "PbS", "Pb(NO3)2", "Pb(SO4)2", "PbSO3", "PbCO3", "PbN2", "Pb(OH)2"
+    ]
+  },
+  {
+    "element": "Cadmium (Cd)",
+    "reactions_with_heavy_metals": [
+      "Cd + As → Cd3As2",
+      "Cd + Pb → Cd2Pb",
+      "Cd + Cu → CuCd2",
+      "Cd + Fe → FeCd2",
+      "Cd + Mn → MnCd2",
+      "Cd + Zn → ZnCd2",
+      "Cd + Ni → NiCd2",
+      "Cd + Sb → SbCd2",
+      "Cd + Sn → SnCd4",
+      "Cd + Cr → CrCd2S4",
+      "Cd + Hg → HgCdTe",
+      "Cd + Co → CoCd2",
+      "Cd + Bi → Cd3Bi2"
+    ],
+    "reactions_with_environment": [
+      "2 Cd + O2 → 2 CdO",
+      "Cd + Cl2 → CdCl2",
+      "Cd + S → CdS",
+      "Cd + SO2 → CdSO3",
+      "Cd + 2 HNO3 → Cd(NO3)2 + H2",
+      "Cd + 2 HCl → CdCl2 + H2",
+      "Cd + H2O → Cd(OH)2",
+      "Cd + CO2 → CdCO3",
+      "Cd + N2 → CdN2",
+      "Cd + CH4 → Cd(CH3)2"
+    ],
+    "compounds_found": [
+      "Cd3As2", "Cd2Pb", "CuCd2", "FeCd2", "MnCd2", "ZnCd2", "NiCd2", "SbCd2", "SnCd4", "CrCd2S4", "HgCdTe", "CoCd2", "Cd3Bi2",
+      "CdO", "CdCl2", "CdS", "CdSO3", "Cd(NO3)2", "Cd(OH)2", "CdCO3", "CdN2", "Cd(CH3)2"
+    ]
+  },
+  {
+    "element": "Chromium (Cr)",
+    "reactions_with_heavy_metals": [
+      "Cr + As → CrAs",
+      "Cr + Pb → PbCrO4",
+      "Cr + Cd → CrCd2S4",
+      "Cr + Cu → CuCr2O4",
+      "Cr + Fe → FeCr2O4",
+      "Cr + Mn → MnCr2O4",
+      "Cr + Zn → ZnCr2O4",
+      "Cr + Ni → NiCr2O4",
+      "Cr + Sb → CrSb",
+      "Cr + Sn → CrSn2",
+      "Cr + Hg → HgCrO4",
+      "Cr + Co → CoCr2O4",
+      "Cr + Bi → CrBiO3"
+    ],
+    "reactions_with_environment": [
+      "2 Cr + 3 O2 → 2 CrO3",
+      "4 Cr + 3 O2 → 2 Cr2O3",
+      "Cr + 3 Cl2 → CrCl3",
+      "Cr + S → Cr2S3",
+      "Cr + 2 HNO3 → Cr(NO3)2 + H2",
+      "Cr + 2 HCl → CrCl2 + H2",
+      "Cr + H2SO4 → CrSO4 + H2",
+      "Cr + CO2 → CrCO3",
+      "Cr + N2 → CrN2",
+      "Cr + H2O → Cr(OH)3"
+    ],
+    "compounds_found": [
+      "CrAs", "PbCrO4", "CrCd2S4", "CuCr2O4", "FeCr2O4", "MnCr2O4", "ZnCr2O4", "NiCr2O4", "CrSb", "CrSn2", "HgCrO4", "CoCr2O4", "CrBiO3",
+      "CrO3", "Cr2O3", "CrCl3", "Cr2S3", "Cr(NO3)2", "CrCl2", "CrSO4", "CrCO3", "CrN2", "Cr(OH)3"
+    ]
+  },
+  {
+    "element": "Mercury (Hg)",
+    "reactions_with_heavy_metals": [
+      "Hg + As → Hg3As2",
+      "Hg + Pb → PbHg",
+      "Hg + Cd → HgCdTe",
+      "Hg + Cu → Cu2Hg2",
+      "Hg + Fe → FeHgO",
+      "Hg + Mn → MnHg2O4",
+      "Hg + Zn → ZnHg(SCN)4",
+      "Hg + Ni → NiHg2",
+      "Hg + Sb → SbHg2",
+      "Hg + Sn → SnHg",
+      "Hg + Cr → HgCrO4",
+      "Hg + Co → CoHg2",
+      "Hg + Bi → BiHgO2"
+    ],
+    "reactions_with_environment": [
+      "2 Hg + O2 → 2 HgO",
+      "Hg + Cl2 → HgCl2",
+      "Hg + S → HgS",
+      "Hg + SO2 → HgSO3",
+      "Hg + 2 HNO3 → Hg(NO3)2 + H2",
+      "Hg + 2 HCl → HgCl2 + H2",
+      "Hg + H2O → Hg(OH)2",
+      "Hg + CO2 → HgCO3",
+      "Hg + N2 → HgN2",
+      "Hg + CH3Cl → CH3HgCl"
+    ],
+    "compounds_found": [
+      "Hg3As2", "PbHg", "HgCdTe", "Cu2Hg2", "FeHgO", "MnHg2O4", "ZnHg(SCN)4", "NiHg2", "SbHg2", "SnHg", "HgCrO4", "CoHg2", "BiHgO2",
+      "HgO", "HgCl2", "HgS", "HgSO3", "Hg(NO3)2", "Hg(OH)2", "HgCO3", "HgN2", "CH3HgCl"
+    ]
+  },
+  {
+    "element": "Nickel (Ni)",
+    "reactions_with_heavy_metals": [
+      "Ni + As → NiAs",
+      "Ni + Pb → PbNiO2",
+      "Ni + Cd → NiCd2",
+      "Ni + Cu → CuNi alloy",
+      "Ni + Fe → FeNi alloy",
+      "Ni + Mn → MnNiO3",
+      "Ni + Zn → NiZn alloy",
+      "Ni + Sb → NiSb",
+      "Ni + Sn → Ni3Sn2",
+      "Ni + Cr → NiCr2O4",
+      "Ni + Hg → NiHg2",
+      "Ni + Co → NiCo2O4",
+      "Ni + Bi → NiBi"
+    ],
+    "reactions_with_environment": [
+      "2 Ni + O2 → 2 NiO",
+      "Ni + Cl2 → NiCl2",
+      "Ni + S → NiS",
+      "Ni + SO2 → NiSO3",
+      "Ni + 2 HNO3 → Ni(NO3)2 + H2",
+      "Ni + 2 HCl → NiCl2 + H2",
+      "Ni + H2O → Ni(OH)2",
+      "Ni + CO2 → NiCO3",
+      "Ni + N2 → NiN2",
+      "Ni + CH4 → Ni(CH3)2"
+    ],
+    "compounds_found": [
+      "NiAs", "PbNiO2", "NiCd2", "CuNi", "FeNi", "MnNiO3", "NiZn", "NiSb", "Ni3Sn2", "NiCr2O4", "NiHg2", "NiCo2O4", "NiBi",
+      "NiO", "NiCl2", "NiS", "NiSO3", "Ni(NO3)2", "Ni(OH)2", "NiCO3", "NiN2", "Ni(CH3)2"
+    ]
+  },
+  {
+    "element": "Copper (Cu)",
+    "reactions_with_heavy_metals": [
+      "Cu + As → Cu3As",
+      "Cu + Pb → PbCu3",
+      "Cu + Cd → CuCd2",
+      "Cu + Fe → CuFe2O4",
+      "Cu + Mn → CuMn2O4",
+      "Cu + Zn → CuZn alloy",
+      "Cu + Ni → CuNi alloy",
+      "Cu + Sb → CuSb",
+      "Cu + Sn → Cu3Sn",
+      "Cu + Cr → CuCr2O4",
+      "Cu + Hg → Cu2Hg2",
+      "Cu + Co → CuCo2O4",
+      "Cu + Bi → CuBi"
+    ],
+    "reactions_with_environment": [
+      "2 Cu + O2 → 2 CuO",
+      "4 Cu + O2 → 2 Cu2O",
+      "Cu + Cl2 → CuCl2",
+      "Cu + S → CuS",
+      "Cu + SO2 → CuSO3",
+      "Cu + 2 HNO3 → Cu(NO3)2 + H2",
+      "Cu + 2 HCl → CuCl2 + H2",
+      "Cu + H2O → Cu(OH)2",
+      "Cu + CO2 → CuCO3",
+      "Cu + N2 → CuN2"
+    ],
+    "compounds_found": [
+      "Cu3As", "PbCu3", "CuCd2", "CuFe2O4", "CuMn2O4", "CuZn", "CuNi", "CuSb", "Cu3Sn", "CuCr2O4", "Cu2Hg2", "CuCo2O4", "CuBi",
+      "CuO", "Cu2O", "CuCl2", "CuS", "CuSO3", "Cu(NO3)2", "Cu(OH)2", "CuCO3", "CuN2"
+    ]
+  },
+  {
+    "element": "Zinc (Zn)",
+    "reactions_with_heavy_metals": [
+      "Zn + As → Zn3As2",
+      "Zn + Pb → PbZn2",
+      "Zn + Cd → ZnCd2",
+      "Zn + Cu → CuZn alloy",
+      "Zn + Fe → ZnFe2O4",
+      "Zn + Mn → MnZn2O4",
+      "Zn + Ni → NiZn alloy",
+      "Zn + Sb → ZnSb2",
+      "Zn + Sn → ZnSn2",
+      "Zn + Cr → ZnCr2O4",
+      "Zn + Hg → ZnHg(SCN)4",
+      "Zn + Co → ZnCo2O4",
+      "Zn + Bi → ZnBi"
+    ],
+    "reactions_with_environment": [
+      "2 Zn + O2 → 2 ZnO",
+      "Zn + Cl2 → ZnCl2",
+      "Zn + S → ZnS",
+      "Zn + SO2 → ZnSO3",
+      "Zn + 2 HNO3 → Zn(NO3)2 + H2",
+      "Zn + 2 HCl → ZnCl2 + H2",
+      "Zn + H2O → Zn(OH)2",
+      "Zn + CO2 → ZnCO3",
+      "Zn + N2 → ZnN2",
+      "Zn + CH4 → Zn(CH3)2"
+    ],
+    "compounds_found": [
+      "Zn3As2", "PbZn2", "ZnCd2", "CuZn", "ZnFe2O4", "MnZn2O4", "NiZn", "ZnSb2", "ZnSn2", "ZnCr2O4", "ZnHg(SCN)4", "ZnCo2O4", "ZnBi",
+      "ZnO", "ZnCl2", "ZnS", "ZnSO3", "Zn(NO3)2", "Zn(OH)2", "ZnCO3", "ZnN2", "Zn(CH3)2"
+    ]
+  },
+  {
+    "element": "Iron (Fe)",
+    "reactions_with_heavy_metals": [
+      "Fe + As → FeAs",
+      "Fe + Pb → PbFe2O4",
+      "Fe + Cd → FeCd2",
+      "Fe + Cu → CuFe2O4",
+      "Fe + Mn → MnFe2O4",
+      "Fe + Zn → ZnFe2O4",
+      "Fe + Ni → FeNi alloy",
+      "Fe + Sb → SbFe2",
+      "Fe + Sn → FeSn2",
+      "Fe + Cr → FeCr2O4",
+      "Fe + Hg → FeHgO",
+      "Fe + Co → FeCo2O4",
+      "Fe + Bi → FeBiO3"
+    ],
+    "reactions_with_environment": [
+      "4 Fe + 3 O2 → 2 Fe2O3",
+      "2 Fe + O2 → 2 FeO",
+      "2 Fe + 3 Cl2 → 2 FeCl3",
+      "Fe + S → FeS",
+      "Fe + SO2 → FeSO3",
+      "Fe + 2 HNO3 → Fe(NO3)2 + H2",
+      "Fe + 2 HCl → FeCl2 + H2",
+      "Fe + H2O → Fe(OH)2",
+      "Fe + CO2 → FeCO3",
+      "Fe + N2 → FeN2"
+    ],
+    "compounds_found": [
+      "FeAs", "PbFe2O4", "FeCd2", "CuFe2O4", "MnFe2O4", "ZnFe2O4", "FeNi", "SbFe2", "FeSn2", "FeCr2O4", "FeHgO", "FeCo2O4", "FeBiO3",
+      "Fe2O3", "FeO", "FeCl3", "FeS", "FeSO3", "Fe(NO3)2", "FeCl2", "Fe(OH)2", "FeCO3", "FeN2"
+    ]
+  },
+  {
+    "element": "Manganese (Mn)",
+    "reactions_with_heavy_metals": [
+      "Mn + As → MnAs",
+      "Mn + Pb → PbMnO2",
+      "Mn + Cd → MnCd2",
+      "Mn + Cu → CuMn2O4",
+      "Mn + Fe → MnFe2O4",
+      "Mn + Zn → MnZn2O4",
+      "Mn + Ni → MnNiO3",
+      "Mn + Sb → MnSb",
+      "Mn + Sn → MnSn2",
+      "Mn + Cr → MnCr2O4",
+      "Mn + Hg → MnHg2O4",
+      "Mn + Co → MnCo2O4",
+      "Mn + Bi → MnBi2O6"
+    ],
+    "reactions_with_environment": [
+      "2 Mn + O2 → 2 MnO",
+      "Mn + O2 → MnO2",
+      "Mn + Cl2 → MnCl2",
+      "Mn + S → MnS",
+      "Mn + SO2 → MnSO3",
+      "Mn + 2 HNO3 → Mn(NO3)2 + H2",
+      "Mn + 2 HCl → MnCl2 + H2",
+      "Mn + H2O → Mn(OH)2",
+      "Mn + CO2 → MnCO3",
+      "Mn + N2 → MnN2"
+    ],
+    "compounds_found": [
+      "MnAs", "PbMnO2", "MnCd2", "CuMn2O4", "MnFe2O4", "MnZn2O4", "MnNiO3", "MnSb", "MnSn2", "MnCr2O4", "MnHg2O4", "MnCo2O4", "MnBi2O6",
+      "MnO", "MnO2", "MnCl2", "MnS", "MnSO3", "Mn(NO3)2", "Mn(OH)2", "MnCO3", "MnN2"
+    ]
+  },
+  {
+    "element": "Selenium (Se)",
+    "reactions_with_heavy_metals": [
+      "Se + As → As2Se3",
+      "Se + Cd → CdSe",
+      "Se + Cu → Cu2Se",
+      "Se + Fe → FeSe",
+      "Se + Pb → PbSe",
+      "Se + Ni → NiSe",
+      "Se + Sb → Sb2Se3",
+      "Se + Sn → SnSe",
+      "Se + Mo → MoSe2",
+      "Se + Ag → Ag2Se"
+    ],
+    "reactions_with_environment": [
+      "Se + O2 → SeO2",
+      "Se + 2 H2 → H2Se",
+      "Se + 3 Cl2 → SeCl6",
+      "Se + 4 HNO3 → H2SeO4 + NO2 + H2O",
+      "Se + S → SeS2",
+      "Se + C → SeC",
+      "Se + N2 → No common stable compound",
+      "Se + H2O (slowly) → H2Se + SO2",
+      "2 Se + 3 O2 → 2 SeO3",
+      "Se + HCl → SeCl2 + H2"
+    ],
+    "compounds_found": [
+      "As2Se3", "CdSe", "Cu2Se", "FeSe", "PbSe", "NiSe", "Sb2Se3", "SnSe", "MoSe2", "Ag2Se",
+      "SeO2", "H2Se", "SeCl6", "H2SeO4", "SeS2", "SeC", "SeCl2", "SeO3"
+    ]
+  },
+  {
+    "element": "Aluminium (Al)",
+    "reactions_with_heavy_metals": [
+      "Al + Pb → PbAl3",
+      "Al + Cu → CuAl2",
+      "Al + Fe → FeAl3",
+      "Al + Zn → ZnAl3",
+      "Al + Ni → NiAl3",
+      "Al + Sn → Al3Sn",
+      "Al + Sb → AlSb",
+      "Al + Mo → MoAl12",
+      "Al + Ag → Ag2Al",
+      "Al + Cd → CdAl3"
+    ],
+    "reactions_with_environment": [
+      "4 Al + 3 O2 → 2 Al2O3",
+      "2 Al + 6 H2O → 2 Al(OH)3 + 3 H2",
+      "2 Al + 6 HCl → 2 AlCl3 + 3 H2",
+      "2 Al + 3 Cl2 → 2 AlCl3",
+      "2 Al + 3 SO2 → Al2(SO3)3",
+      "Al + C → Al4C3",
+      "Al + N2 → AlN",
+      "2 Al + 6 HNO3 → 2 Al(NO3)3 + 3 H2",
+      "Al + S → Al2S3",
+      "Al + CO2 → Al2(CO3)3"
+    ],
+    "compounds_found": [
+      "PbAl3", "CuAl2", "FeAl3", "ZnAl3", "NiAl3", "Al3Sn", "AlSb", "MoAl12", "Ag2Al", "CdAl3",
+      "Al2O3", "Al(OH)3", "AlCl3", "Al2(SO3)3", "Al4C3", "AlN", "Al2S3", "Al2(CO3)3"
+    ]
+  },
+  {
+    "element": "Boron (B)",
+    "reactions_with_heavy_metals": [
+      "B + Pb → PbB",
+      "B + Cu → CuB2",
+      "B + Fe → FeB",
+      "B + Zn → ZnB",
+      "B + Ni → NiB",
+      "B + Sn → SnB",
+      "B + Sb → SbB",
+      "B + Mo → MoB",
+      "B + Ag → AgB",
+      "B + Cd → CdB2"
+    ],
+    "reactions_with_environment": [
+      "4 B + 3 O2 → 2 B2O3",
+      "2 B + 3 H2 → 2 BH3",
+      "2 B + 3 Cl2 → 2 BCl3",
+      "B + S → BS",
+      "B + N2 → BN",
+      "2 B + 3 H2O → B2O3 + 3 H2",
+      "B + CO2 → B2O3 + CO",
+      "B + HCl → BCl3 + H2",
+      "B + NO2 → BN + O2",
+      "B + H2SO4 → HB(SO4)2"
+    ],
+    "compounds_found": [
+      "PbB", "CuB2", "FeB", "ZnB", "NiB", "SnB", "SbB", "MoB", "AgB", "CdB2",
+      "B2O3", "BH3", "BCl3", "BS", "BN", "HB(SO4)2"
+    ]
+  },
+  {
+    "element": "Barium (Ba)",
+    "reactions_with_heavy_metals": [
+      "Ba + Pb → BaPb3",
+      "Ba + Cu → BaCu3",
+      "Ba + Fe → BaFe12O19",
+      "Ba + Zn → BaZn2",
+      "Ba + Ni → BaNi5",
+      "Ba + Sn → BaSn3",
+      "Ba + Sb → BaSb3",
+      "Ba + Mo → BaMoO4",
+      "Ba + Ag → BaAg",
+      "Ba + Cd → BaCd"
+    ],
+    "reactions_with_environment": [
+      "Ba + O2 → BaO2",
+      "Ba + H2O → Ba(OH)2 + H2",
+      "Ba + Cl2 → BaCl2",
+      "Ba + S → BaS",
+      "Ba + CO2 → BaCO3",
+      "Ba + N2 → Ba3N2",
+      "Ba + SO2 → BaSO3",
+      "Ba + H2SO4 → BaSO4 + H2",
+      "Ba + NO2 → Ba(NO3)2",
+      "Ba + 2 HCl → BaCl2 + H2"
+    ],
+    "compounds_found": [
+      "BaPb3", "BaCu3", "BaFe12O19", "BaZn2", "BaNi5", "BaSn3", "BaSb3", "BaMoO4", "BaAg", "BaCd",
+      "BaO2", "Ba(OH)2", "BaCl2", "BaS", "BaCO3", "Ba3N2", "BaSO3", "BaSO4", "Ba(NO3)2"
+    ]
+  },
+  {
+    "element": "Silver (Ag)",
+    "reactions_with_heavy_metals": [
+      "Ag + As → Ag3As",
+      "Ag + Pb → PbAg",
+      "Ag + Cd → AgCd",
+      "Ag + Cu → AgCu",
+      "Ag + Fe → FeAg",
+      "Ag + Zn → AgZn",
+      "Ag + Ni → AgNi",
+      "Ag + Sb → Ag3Sb",
+      "Ag + Mo → Ag2MoO4",
+      "Ag + Sn → Ag3Sn"
+    ],
+    "reactions_with_environment": [
+      "4 Ag + O2 → 2 Ag2O",
+      "2 Ag + Cl2 → 2 AgCl",
+      "Ag + S → Ag2S",
+      "Ag + H2S → Ag2S + H2",
+      "2 Ag + 2 HNO3 → 2 AgNO3 + H2",
+      "Ag + 2 HCl → 2 AgCl + H2",
+      "Ag + CO2 → Ag2CO3",
+      "Ag + N2 → No stable direct compound",
+      "Ag + SO2 → Ag2SO3",
+      "Ag + 2 H2SO4 → Ag2SO4 + SO2 + 2 H2O"
+    ],
+    "compounds_found": [
+      "Ag3As", "PbAg", "AgCd", "AgCu", "FeAg", "AgZn", "AgNi", "Ag3Sb", "Ag2MoO4", "Ag3Sn",
+      "Ag2O", "AgCl", "Ag2S", "AgNO3", "Ag2CO3", "Ag2SO3", "Ag2SO4"
+    ]
+  },
+  {
+    "element": "Molybdenum (Mo)",
+    "reactions_with_heavy_metals": [
+      "Mo + As → MoAs",
+      "Mo + Pb → PbMoO4",
+      "Mo + Cd → MoCd",
+      "Mo + Cu → CuMo alloy",
+      "Mo + Fe → FeMo alloy",
+      "Mo + Zn → ZnMo alloy",
+      "Mo + Ni → NiMo alloy",
+      "Mo + Sb → MoSb2",
+      "Mo + Sn → MoSn",
+      "Mo + Ag → Ag2MoO4"
+    ],
+    "reactions_with_environment": [
+      "2 Mo + 3 O2 → 2 MoO3",
+      "Mo + Cl2 → MoCl5",
+      "Mo + S → MoS2",
+      "Mo + SO2 → MoSO3",
+      "Mo + 2 HCl → MoCl4 + H2",
+      "Mo + N2 → MoN",
+      "Mo + H2 → MoH",
+      "Mo + CO2 → MoO3 + CO",
+      "2 Mo + 6 HNO3 → 2 MoO3 + 6 NO2 + 3 H2O",
+      "Mo + H2O → MoO3 + H2"
+    ],
+    "compounds_found": [
+      "MoAs", "PbMoO4", "MoCd", "CuMo", "FeMo", "ZnMo", "NiMo", "MoSb2", "MoSn", "Ag2MoO4",
+      "MoO3", "MoCl5", "MoS2", "MoSO3", "MoCl4", "MoN", "MoH"
+    ]
+  },
+  {
+    "element": "Antimony (Sb)",
+    "reactions_with_heavy_metals": [
+      "Sb + As → SbAs",
+      "Sb + Pb → PbSb2",
+      "Sb + Cd → SbCd2",
+      "Sb + Cu → CuSb",
+      "Sb + Fe → FeSb2",
+      "Sb + Zn → ZnSb2",
+      "Sb + Ni → NiSb",
+      "Sb + Mo → MoSb2",
+      "Sb + Sn → SnSb",
+      "Sb + Ag → Ag3Sb"
+    ],
+    "reactions_with_environment": [
+      "2 Sb + 3 O2 → Sb2O3",
+      "2 Sb + 5 O2 → Sb2O5",
+      "Sb + 3 Cl2 → SbCl3",
+      "Sb + 3 H2 → SbH3",
+      "Sb + S → Sb2S3",
+      "Sb + CO2 → Sb2O3 + CO",
+      "Sb + N2 → No stable direct compound",
+      "Sb + H2SO4 → Sb2(SO4)3",
+      "Sb + HCl → SbCl3 + H2",
+      "Sb + H2O slow hydrolysis"
+    ],
+    "compounds_found": [
+      "SbAs", "PbSb2", "SbCd2", "CuSb", "FeSb2", "ZnSb2", "NiSb", "MoSb2", "SnSb", "Ag3Sb",
+      "Sb2O3", "Sb2O5", "SbCl3", "SbH3", "Sb2S3", "Sb2(SO4)3"
+    ]
+  },
+  {
+    "element": "Tin (Sn)",
+    "reactions_with_heavy_metals": [
+      "Sn + As → SnAs2",
+      "Sn + Pb → PbSn3",
+      "Sn + Cd → SnCd4",
+      "Sn + Cu → Cu3Sn",
+      "Sn + Fe → FeSn2",
+      "Sn + Zn → ZnSn2",
+      "Sn + Ni → Ni3Sn2",
+      "Sn + Sb → SnSb",
+      "Sn + Mo → MoSn",
+      "Sn + Ag → Ag3Sn"
+    ],
+    "reactions_with_environment": [
+      "Sn + O2 → SnO2",
+      "Sn + Cl2 → SnCl4",
+      "Sn + S → SnS2",
+      "Sn + 2 HCl → SnCl2 + H2",
+      "Sn + SO2 → SnSO3",
+      "Sn + CO2 → SnCO3",
+      "Sn + N2 → SnN2",
+      "Sn + H2SO4 → SnSO4 + H2",
+      "Sn + HNO3 → Sn(NO3)2 + H2",
+      "Sn + H2O → SnO2 + H2"
+    ],
+    "compounds_found": [
+      "SnAs2", "PbSn3", "SnCd4", "Cu3Sn", "FeSn2", "ZnSn2", "Ni3Sn2", "SnSb", "MoSn", "Ag3Sn",
+      "SnO2", "SnCl4", "SnS2", "SnCl2", "SnSO3", "SnCO3", "SnN2", "SnSO4", "Sn(NO3)2"
+    ]
+  },
+  {
+    "element": "Beryllium (Be)",
+    "reactions_with_heavy_metals": [
+      "Be + Pb → PbBe",
+      "Be + Cd → CdBe",
+      "Be + Cu → CuBe",
+      "Be + Fe → FeBe",
+      "Be + Mn → MnBe",
+      "Be + Zn → ZnBe",
+      "Be + Ni → NiBe",
+      "Be + Sb → SbBe",
+      "Be + Sn → SnBe",
+      "Be + Cr → CrBe"
+    ],
+    "reactions_with_environment": [
+      "2 Be + O2 → 2 BeO",
+      "Be + H2 → BeH2",
+      "Be + Cl2 → BeCl2",
+      "Be + S → BeS",
+      "Be + N2 → Be3N2",
+      "Be + CO2 → BeCO3",
+      "Be + H2O → Be(OH)2 + H2",
+      "Be + HCl → BeCl2 + H2",
+      "Be + SO2 → BeSO3",
+      "Be + 2 HNO3 → Be(NO3)2 + H2"
+    ],
+    "compounds_found": [
+      "PbBe", "CdBe", "CuBe", "FeBe", "MnBe", "ZnBe", "NiBe", "SbBe", "SnBe", "CrBe",
+      "BeO", "BeH2", "BeCl2", "BeS", "Be3N2", "BeCO3", "Be(OH)2", "BeSO3", "Be(NO3)2"
+    ]
+  },
+  {
+    "element": "Strontium (Sr)",
+    "reactions_with_heavy_metals": [
+      "Sr + Pb → PbSr2",
+      "Sr + Cd → CdSr",
+      "Sr + Cu → CuSr",
+      "Sr + Fe → FeSr",
+      "Sr + Mn → MnSr",
+      "Sr + Zn → ZnSr",
+      "Sr + Ni → NiSr",
+      "Sr + Sb → SbSr",
+      "Sr + Sn → SnSr",
+      "Sr + Cr → CrSr"
+    ],
+    "reactions_with_environment": [
+      "Sr + O2 → SrO2",
+      "Sr + H2 → SrH2",
+      "Sr + Cl2 → SrCl2",
+      "Sr + S → SrS",
+      "Sr + N2 → Sr3N2",
+      "Sr + CO2 → SrCO3",
+      "Sr + H2O → Sr(OH)2 + H2",
+      "Sr + HCl → SrCl2 + H2",
+      "Sr + SO2 → SrSO3",
+      "Sr + 2 HNO3 → Sr(NO3)2 + H2"
+    ],
+    "compounds_found": [
+      "PbSr2", "CdSr", "CuSr", "FeSr", "MnSr", "ZnSr", "NiSr", "SbSr", "SnSr", "CrSr",
+      "SrO2", "SrH2", "SrCl2", "SrS", "Sr3N2", "SrCO3", "Sr(OH)2", "SrSO3", "Sr(NO3)2"
+    ]
+  },
+  {
+    "element": "Lithium (Li)",
+    "reactions_with_heavy_metals": [
+      "Li + Pb → PbLi",
+      "Li + Cd → CdLi",
+      "Li + Cu → CuLi",
+      "Li + Fe → FeLi",
+      "Li + Mn → MnLi",
+      "Li + Zn → ZnLi",
+      "Li + Ni → NiLi",
+      "Li + Sb → SbLi",
+      "Li + Sn → SnLi",
+      "Li + Cr → CrLi"
+    ],
+    "reactions_with_environment": [
+      "4 Li + O2 → 2 Li2O",
+      "2 Li + H2 → 2 LiH",
+      "2 Li + Cl2 → 2 LiCl",
+      "2 Li + S → Li2S",
+      "6 Li + N2 → 2 Li3N",
+      "Li + CO2 → Li2CO3",
+      "2 Li + 2 H2O → 2 LiOH + H2",
+      "2 Li + 2 HCl → 2 LiCl + H2",
+      "2 Li + SO2 → Li2SO3",
+      "2 Li + 2 HNO3 → 2 LiNO3 + H2"
+    ],
+    "compounds_found": [
+      "PbLi", "CdLi", "CuLi", "FeLi", "MnLi", "ZnLi", "NiLi", "SbLi", "SnLi", "CrLi",
+      "Li2O", "LiH", "LiCl", "Li2S", "Li3N", "Li2CO3", "LiOH", "Li2SO3", "LiNO3"
+    ]
+  },
+  {
+    "element": "Cobalt (Co)",
+    "reactions_with_heavy_metals": [
+      "Co + As → CoAs",
+      "Co + Pb → PbCo2",
+      "Co + Cd → CoCd2",
+      "Co + Cu → CuCo",
+      "Co + Fe → FeCo",
+      "Co + Mn → MnCo2",
+      "Co + Zn → ZnCo",
+      "Co + Ni → NiCo",
+      "Co + Sb → CoSb",
+      "Co + Sn → SnCo"
+    ],
+    "reactions_with_environment": [
+      "2 Co + O2 → 2 CoO",
+      "Co + Cl2 → CoCl2",
+      "Co + S → CoS",
+      "Co + SO2 → CoSO3",
+      "Co + 2 HNO3 → Co(NO3)2 + H2",
+      "Co + 2 HCl → CoCl2 + H2",
+      "Co + H2O → Co(OH)2",
+      "Co + CO2 → CoCO3",
+      "Co + N2 → CoN2",
+      "Co + CH4 → Co(CH3)2"
+    ],
+    "compounds_found": [
+      "CoAs", "PbCo2", "CoCd2", "CuCo", "FeCo", "MnCo2", "ZnCo", "NiCo", "CoSb", "SnCo",
+      "CoO", "CoCl2", "CoS", "CoSO3", "Co(NO3)2", "CoCl2", "Co(OH)2", "CoCO3", "CoN2", "Co(CH3)2"
+    ]
+  },
+  {
+    "element": "Vanadium (V)",
+    "reactions_with_heavy_metals": [
+      "V + As → VAs",
+      "V + Pb → PbVO3",
+      "V + Cd → VCd",
+      "V + Cu → CuV",
+      "V + Fe → FeV",
+      "V + Mn → MnV",
+      "V + Zn → ZnV",
+      "V + Ni → NiV",
+      "V + Sb → SbV",
+      "V + Sn → SnV"
+    ],
+    "reactions_with_environment": [
+      "4 V + 5 O2 → 4 VO2 + O2",
+      "V + Cl2 → VCl4",
+      "V + S → VS2",
+      "V + SO2 → V2(SO4)3",
+      "V + 2 HCl → VCl2 + H2",
+      "V + CO2 → V2O5 + CO",
+      "V + N2 → VN",
+      "V + H2 → VH2",
+      "V + H2O → V2O5 + H2",
+      "V + HNO3 → V2O5 + NO2"
+    ],
+    "compounds_found": [
+      "VAs", "PbVO3", "VCd", "CuV", "FeV", "MnV", "ZnV", "NiV", "SbV", "SnV",
+      "VO2", "VCl4", "VS2", "V2(SO4)3", "VCl2", "V2O5", "VN", "VH2"
+    ]
+  },
+  {
+    "element": "Uranium (U)",
+    "reactions_with_heavy_metals": [
+      "U + As → UAs",
+      "U + Pb → PbU",
+      "U + Cd → UCd",
+      "U + Cu → CuU",
+      "U + Fe → FeU",
+      "U + Mn → MnU",
+      "U + Zn → ZnU",
+      "U + Ni → NiU",
+      "U + Sb → SbU",
+      "U + Sn → SnU"
+    ],
+    "reactions_with_environment": [
+      "U + O2 → UO2",
+      "U + Cl2 → UCl4",
+      "U + S → US",
+      "U + SO2 → USO3",
+      "U + 2 HNO3 → UO2(NO3)2 + NO2 + H2O",
+      "U + H2 → UH3",
+      "U + N2 → UN2",
+      "U + H2O → UO2 + H2",
+      "U + CO2 → UCO3",
+      "U + HCl → UCl4 + H2"
+    ],
+    "compounds_found": [
+      "UAs", "PbU", "UCd", "CuU", "FeU", "MnU", "ZnU", "NiU", "SbU", "SnU",
+      "UO2", "UCl4", "US", "USO3", "UO2(NO3)2", "UH3", "UN2", "UCO3"
+    ]
+  },
+  {
+    "element": "Thorium (Th)",
+    "reactions_with_heavy_metals": [
+      "Th + As → ThAs",
+      "Th + Pb → PbTh",
+      "Th + Cd → CdTh",
+      "Th + Cu → CuTh",
+      "Th + Fe → FeTh",
+      "Th + Mn → MnTh",
+      "Th + Zn → ZnTh",
+      "Th + Ni → NiTh",
+      "Th + Sb → SbTh",
+      "Th + Sn → SnTh"
+    ],
+    "reactions_with_environment": [
+      "Th + O2 → ThO2",
+      "Th + Cl2 → ThCl4",
+      "Th + S → ThS",
+      "Th + SO2 → ThSO3",
+      "Th + H2 → ThH4",
+      "Th + N2 → ThN2",
+      "Th + H2O → Th(OH)4",
+      "Th + CO2 → ThCO3",
+      "Th + 2 HNO3 → Th(NO3)4",
+      "Th + HCl → ThCl4"
+    ],
+    "compounds_found": [
+      "ThAs", "PbTh", "CdTh", "CuTh", "FeTh", "MnTh", "ZnTh", "NiTh", "SbTh", "SnTh",
+      "ThO2", "ThCl4", "ThS", "ThSO3", "ThH4", "ThN2", "Th(OH)4", "ThCO3", "Th(NO3)4"
+    ]
+  },
+  {
+    "element": "Thallium (Tl)",
+    "reactions_with_heavy_metals": [
+      "Tl + As → TlAs",
+      "Tl + Pb → PbTl",
+      "Tl + Cd → CdTl",
+      "Tl + Cu → CuTl",
+      "Tl + Fe → FeTl",
+      "Tl + Mn → MnTl",
+      "Tl + Zn → ZnTl",
+      "Tl + Ni → NiTl",
+      "Tl + Sb → SbTl",
+      "Tl + Sn → SnTl"
+    ],
+    "reactions_with_environment": [
+      "4 Tl + 3 O2 → 2 Tl2O3",
+      "Tl + Cl2 → TlCl",
+      "Tl + S → Tl2S",
+      "Tl + SO2 → Tl2SO3",
+      "Tl + H2 → TlH3",
+      "Tl + N2 → TlN",
+      "Tl + H2O → TlOH",
+      "Tl + CO2 → Tl2CO3",
+      "Tl + HNO3 → TlNO3",
+      "Tl + HCl → TlCl"
+    ],
+    "compounds_found": [
+      "TlAs", "PbTl", "CdTl", "CuTl", "FeTl", "MnTl", "ZnTl", "NiTl", "SbTl", "SnTl",
+      "Tl2O3", "TlCl", "Tl2S", "Tl2SO3", "TlH3", "TlN", "TlOH", "Tl2CO3", "TlNO3"
+    ]
+  },
+  {
+    "element": "Bismuth (Bi)",
+    "reactions_with_heavy_metals": [
+      "Bi + As → BiAs",
+      "Bi + Pb → PbBi",
+      "Bi + Cd → CdBi",
+      "Bi + Cu → CuBi",
+      "Bi + Fe → FeBi",
+      "Bi + Mn → MnBi",
+      "Bi + Zn → ZnBi",
+      "Bi + Ni → NiBi",
+      "Bi + Sb → SbBi",
+      "Bi + Sn → SnBi"
+    ],
+    "reactions_with_environment": [
+      "4 Bi + 3 O2 → 2 Bi2O3",
+      "2 Bi + 3 Cl2 → 2 BiCl3",
+      "2 Bi + 3 S → Bi2S3",
+      "Bi + 2 HNO3 → Bi(NO3)3 + H2",
+      "Bi + 3 HCl → BiCl3 + 3/2 H2",
+      "Bi + SO2 → BiSO3",
+      "Bi + CO2 → Bi2O3 + CO",
+      "Bi + N2 → No stable direct compound",
+      "Bi + H2O → Bi(OH)3",
+      "Bi + CH4 → Bi(CH3)3"
+    ],
+    "compounds_found": [
+      "BiAs", "PbBi", "CdBi", "CuBi", "FeBi", "MnBi", "ZnBi", "NiBi", "SbBi", "SnBi",
+      "Bi2O3", "BiCl3", "Bi2S3", "Bi(NO3)3", "BiCl3", "BiSO3", "Bi(OH)3", "Bi(CH3)3"
+    ]
+  },
+  {
+    "element": "Calcium (Ca)",
+    "reactions_with_heavy_metals": [
+      "Ca + Pb → CaPb",
+      "Ca + Cd → CaCd",
+      "Ca + Cu → CaCu",
+      "Ca + Fe → FeCa",
+      "Ca + Mn → CaMn",
+      "Ca + Zn → CaZn",
+      "Ca + Ni → NiCa",
+      "Ca + Sb → CaSb",
+      "Ca + Sn → CaSn",
+      "Ca + Cr → CaCr"
+    ],
+    "reactions_with_environment": [
+      "Ca + O2 → CaO",
+      "Ca + H2O → Ca(OH)2 + H2",
+      "Ca + Cl2 → CaCl2",
+      "Ca + S → CaS",
+      "Ca + CO2 → CaCO3",
+      "Ca + N2 → Ca3N2",
+      "Ca + SO2 → CaSO3",
+      "Ca + H2SO4 → CaSO4 + H2",
+      "Ca + HNO3 → Ca(NO3)2",
+      "Ca + HCl → CaCl2 + H2"
+    ],
+    "compounds_found": [
+      "CaPb", "CaCd", "CaCu", "FeCa", "CaMn", "CaZn", "NiCa", "CaSb", "CaSn", "CaCr",
+      "CaO", "Ca(OH)2", "CaCl2", "CaS", "CaCO3", "Ca3N2", "CaSO3", "CaSO4", "Ca(NO3)2"
+    ]
+  },
+  {
+    "element": "Magnesium (Mg)",
+    "reactions_with_heavy_metals": [
+      "Mg + Pb → MgPb",
+      "Mg + Cd → MgCd",
+      "Mg + Cu → CuMg",
+      "Mg + Fe → FeMg",
+      "Mg + Mn → MnMg",
+      "Mg + Zn → ZnMg",
+      "Mg + Ni → NiMg",
+      "Mg + Sb → SbMg",
+      "Mg + Sn → SnMg",
+      "Mg + Cr → CrMg"
+    ],
+    "reactions_with_environment": [
+      "2 Mg + O2 → 2 MgO",
+      "Mg + H2O → Mg(OH)2 + H2",
+      "Mg + Cl2 → MgCl2",
+      "Mg + S → MgS",
+      "Mg + CO2 → MgCO3",
+      "Mg + N2 → Mg3N2",
+      "Mg + SO2 → MgSO3",
+      "Mg + H2SO4 → MgSO4 + H2",
+      "Mg + HNO3 → Mg(NO3)2",
+      "Mg + HCl → MgCl2 + H2"
+    ],
+    "compounds_found": [
+      "MgPb", "MgCd", "CuMg", "FeMg", "MnMg", "ZnMg", "NiMg", "SbMg", "SnMg", "CrMg",
+      "MgO", "Mg(OH)2", "MgCl2", "MgS", "MgCO3", "Mg3N2", "MgSO3", "MgSO4", "Mg(NO3)2"
+    ]
+  },
+  {
+    "element": "Sodium (Na)",
+    "reactions_with_heavy_metals": [
+      "Na + Pb → PbNa",
+      "Na + Cd → NaCd",
+      "Na + Cu → CuNa",
+      "Na + Fe → FeNa",
+      "Na + Mn → MnNa",
+      "Na + Zn → ZnNa",
+      "Na + Ni → NiNa",
+      "Na + Sb → SbNa",
+      "Na + Sn → SnNa",
+      "Na + Cr → CrNa"
+    ],
+    "reactions_with_environment": [
+      "4 Na + O2 → 2 Na2O",
+      "2 Na + 2 H2O → 2 NaOH + H2",
+      "2 Na + Cl2 → 2 NaCl",
+      "2 Na + S → Na2S",
+      "6 Na + N2 → 2 Na3N",
+      "2 Na + 2 CO2 → Na2CO3 + CO",
+      "2 Na + 2 HCl → 2 NaCl + H2",
+      "2 Na + SO2 → Na2SO3",
+      "2 Na + 2 HNO3 → 2 NaNO3 + H2",
+      "2 Na + H2 → 2 NaH"
+    ],
+    "compounds_found": [
+      "PbNa", "NaCd", "CuNa", "FeNa", "MnNa", "ZnNa", "NiNa", "SbNa", "SnNa", "CrNa",
+      "Na2O", "NaOH", "NaCl", "Na2S", "Na3N", "Na2CO3", "Na2SO3", "NaNO3", "NaH"
+    ]
+  },
+  {
+    "element": "Potassium (K)",
+    "reactions_with_heavy_metals": [
+      "K + Pb → PbK",
+      "K + Cd → CdK",
+      "K + Cu → CuK",
+      "K + Fe → FeK",
+      "K + Mn → MnK",
+      "K + Zn → ZnK",
+      "K + Ni → NiK",
+      "K + Sb → SbK",
+      "K + Sn → SnK",
+      "K + Cr → CrK"
+    ],
+    "reactions_with_environment": [
+      "4 K + O2 → 2 K2O",
+      "2 K + 2 H2O → 2 KOH + H2",
+      "2 K + Cl2 → 2 KCl",
+      "2 K + S → K2S",
+      "6 K + N2 → 2 K3N",
+      "2 K + 2 CO2 → K2CO3 + CO",
+      "2 K + 2 HCl → 2 KCl + H2",
+      "2 K + SO2 → K2SO3",
+      "2 K + 2 HNO3 → 2 KNO3 + H2",
+      "2 K + H2 → 2 KH"
+    ],
+    "compounds_found": [
+      "PbK", "CdK", "CuK", "FeK", "MnK", "ZnK", "NiK", "SbK", "SnK", "CrK",
+      "K2O", "KOH", "KCl", "K2S", "K3N", "K2CO3", "K2SO3", "KNO3", "KH"
+    ]
+  },
+  {
+    "element": "Gallium (Ga)",
+    "reactions_with_heavy_metals": [
+      "Ga + Pb → PbGa",
+      "Ga + Cd → CdGa",
+      "Ga + Cu → CuGa",
+      "Ga + Fe → FeGa",
+      "Ga + Mn → MnGa",
+      "Ga + Zn → ZnGa",
+      "Ga + Ni → NiGa",
+      "Ga + Sb → SbGa",
+      "Ga + Sn → SnGa",
+      "Ga + Cr → CrGa"
+    ],
+    "reactions_with_environment": [
+      "4 Ga + 3 O2 → 2 Ga2O3",
+      "2 Ga + 6 H2O → 2 Ga(OH)3 + 3 H2",
+      "2 Ga + 6 HCl → 2 GaCl3 + 3 H2",
+      "2 Ga + 3 Cl2 → 2 GaCl3",
+      "Ga + S → Ga2S3",
+      "Ga + N2 → GaN",
+      "Ga + CO2 → Ga2O3 + CO",
+      "Ga + SO2 → Ga2(SO3)3",
+      "Ga + HNO3 → Ga(NO3)3",
+      "Ga + H2SO4 → Ga2(SO4)3"
+    ],
+    "compounds_found": [
+      "PbGa", "CdGa", "CuGa", "FeGa", "MnGa", "ZnGa", "NiGa", "SbGa", "SnGa", "CrGa",
+      "Ga2O3", "Ga(OH)3", "GaCl3", "Ga2S3", "GaN", "Ga2(SO3)3", "Ga(NO3)3", "Ga2(SO4)3"
+    ]
+  },
+  {
+    "element": "Germanium (Ge)",
+    "reactions_with_heavy_metals": [
+      "Ge + Pb → PbGe",
+      "Ge + Cd → CdGe",
+      "Ge + Cu → CuGe",
+      "Ge + Fe → FeGe",
+      "Ge + Mn → MnGe",
+      "Ge + Zn → ZnGe",
+      "Ge + Ni → NiGe",
+      "Ge + Sb → SbGe",
+      "Ge + Sn → SnGe",
+      "Ge + Cr → CrGe"
+    ],
+    "reactions_with_environment": [
+      "Ge + O2 → GeO2",
+      "Ge + H2 → GeH4",
+      "Ge + Cl2 → GeCl4",
+      "Ge + S → GeS2",
+      "Ge + N2 → Ge3N4",
+      "Ge + CO2 → GeO2 + CO",
+      "Ge + H2O → GeO2 + H2",
+      "Ge + HCl → GeCl4 + H2",
+      "Ge + SO2 → GeSO3",
+      "Ge + HNO3 → Ge(NO3)4"
+    ],
+    "compounds_found": [
+      "PbGe", "CdGe", "CuGe", "FeGe", "MnGe", "ZnGe", "NiGe", "SbGe", "SnGe", "CrGe",
+      "GeO2", "GeH4", "GeCl4", "GeS2", "Ge3N4", "GeSO3", "Ge(NO3)4"
+    ]
+  },
+  {
+    "element": "Rubidium (Rb)",
+    "reactions_with_heavy_metals": [
+      "Rb + Pb → PbRb",
+      "Rb + Cd → CdRb",
+      "Rb + Cu → CuRb",
+      "Rb + Fe → FeRb",
+      "Rb + Mn → MnRb",
+      "Rb + Zn → ZnRb",
+      "Rb + Ni → NiRb",
+      "Rb + Sb → SbRb",
+      "Rb + Sn → SnRb",
+      "Rb + Cr → CrRb"
+    ],
+    "reactions_with_environment": [
+      "4 Rb + O2 → 2 Rb2O",
+      "2 Rb + 2 H2O → 2 RbOH + H2",
+      "2 Rb + Cl2 → 2 RbCl",
+      "2 Rb + S → Rb2S",
+      "6 Rb + N2 → 2 Rb3N",
+      "2 Rb + 2 CO2 → Rb2CO3 + CO",
+      "2 Rb + 2 HCl → 2 RbCl + H2",
+      "2 Rb + SO2 → Rb2SO3",
+      "2 Rb + 2 HNO3 → 2 RbNO3 + H2",
+      "2 Rb + H2 → 2 RbH"
+    ],
+    "compounds_found": [
+      "PbRb", "CdRb", "CuRb", "FeRb", "MnRb", "ZnRb", "NiRb", "SbRb", "SnRb", "CrRb",
+      "Rb2O", "RbOH", "RbCl", "Rb2S", "Rb3N", "Rb2CO3", "Rb2SO3", "RbNO3", "RbH"
+    ]
+  },
+  {
+    "element": "Indium (In)",
+    "reactions_with_heavy_metals": [
+      "In + Pb → PbIn",
+      "In + Cd → CdIn",
+      "In + Cu → CuIn",
+      "In + Fe → FeIn",
+      "In + Mn → MnIn",
+      "In + Zn → ZnIn",
+      "In + Ni → NiIn",
+      "In + Sb → SbIn",
+      "In + Sn → SnIn",
+      "In + Cr → CrIn"
+    ],
+    "reactions_with_environment": [
+      "2 In + 3 O2 → 2 In2O3",
+      "2 In + 6 H2O → 2 In(OH)3 + 3 H2",
+      "2 In + 6 HCl → 2 InCl3 + 3 H2",
+      "2 In + 3 Cl2 → 2 InCl3",
+      "In + S → In2S3",
+      "In + N2 → InN",
+      "In + CO2 → In2O3 + CO",
+      "In + SO2 → In2(SO3)3",
+      "In + HNO3 → In(NO3)3",
+      "In + H2SO4 → In2(SO4)3"
+    ],
+    "compounds_found": [
+      "PbIn", "CdIn", "CuIn", "FeIn", "MnIn", "ZnIn", "NiIn", "SbIn", "SnIn", "CrIn",
+      "In2O3", "In(OH)3", "InCl3", "In2S3", "InN", "In2(SO3)3", "In(NO3)3", "In2(SO4)3"
+    ]
+  },
+  {
+    "element": "Tellurium (Te)",
+    "reactions_with_heavy_metals": [
+      "Te + As → As2Te3",
+      "Te + Cd → CdTe",
+      "Te + Cu → Cu2Te",
+      "Te + Fe → FeTe",
+      "Te + Pb → PbTe",
+      "Te + Ni → NiTe",
+      "Te + Sb → Sb2Te3",
+      "Te + Sn → SnTe",
+      "Te + Mo → MoTe2",
+      "Te + Ag → Ag2Te"
+    ],
+    "reactions_with_environment": [
+      "Te + O2 → TeO2",
+      "Te + 2 H2 → H2Te",
+      "Te + Cl2 → TeCl4",
+      "Te + S → TeS2",
+      "Te + CO2 → TeO2 + CO",
+      "Te + N2 → No stable direct compound",
+      "Te + H2O (slowly) → H2Te + SO2",
+      "Te + HCl → TeCl2 + H2",
+      "2 Te + 3 O2 → 2 TeO3",
+      "Te + H2SO4 → Te(SO4)"
+    ],
+    "compounds_found": [
+      "As2Te3", "CdTe", "Cu2Te", "FeTe", "PbTe", "NiTe", "Sb2Te3", "SnTe", "MoTe2", "Ag2Te",
+      "TeO2", "H2Te", "TeCl4", "TeS2", "TeCl2", "TeO3", "Te(SO4)"
+    ]
+  },
+  {
+    "element": "Cesium (Cs)",
+    "reactions_with_heavy_metals": [
+      "Cs + Pb → PbCs",
+      "Cs + Cd → CdCs",
+      "Cs + Cu → CuCs",
+      "Cs + Fe → FeCs",
+      "Cs + Mn → MnCs",
+      "Cs + Zn → ZnCs",
+      "Cs + Ni → NiCs",
+      "Cs + Sb → SbCs",
+      "Cs + Sn → SnCs",
+      "Cs + Cr → CrCs"
+    ],
+    "reactions_with_environment": [
+      "4 Cs + O2 → 2 Cs2O",
+      "2 Cs + 2 H2O → 2 CsOH + H2",
+      "2 Cs + Cl2 → 2 CsCl",
+      "2 Cs + S → Cs2S",
+      "6 Cs + N2 → 2 Cs3N",
+      "2 Cs + 2 CO2 → Cs2CO3 + CO",
+      "2 Cs + 2 HCl → 2 CsCl + H2",
+      "2 Cs + SO2 → Cs2SO3",
+      "2 Cs + 2 HNO3 → 2 CsNO3 + H2",
+      "2 Cs + H2 → 2 CsH"
+    ],
+    "compounds_found": [
+      "PbCs", "CdCs", "CuCs", "FeCs", "MnCs", "ZnCs", "NiCs", "SbCs", "SnCs", "CrCs",
+      "Cs2O", "CsOH", "CsCl", "Cs2S", "Cs3N", "Cs2CO3", "Cs2SO3", "CsNO3", "CsH"
+    ]
+  },
+  {
+    "element": "Lanthanum (La)",
+    "reactions_with_heavy_metals": [
+      "La + Pb → PbLa",
+      "La + Cd → CdLa",
+      "La + Cu → CuLa",
+      "La + Fe → FeLa",
+      "La + Mn → MnLa",
+      "La + Zn → ZnLa",
+      "La + Ni → NiLa",
+      "La + Sb → SbLa",
+      "La + Sn → SnLa",
+      "La + Cr → CrLa"
+    ],
+    "reactions_with_environment": [
+      "2 La + 3 O2 → 2 La2O3",
+      "2 La + 6 H2O → 2 La(OH)3 + 3 H2",
+      "2 La + 6 HCl → 2 LaCl3 + 3 H2",
+      "2 La + 3 Cl2 → 2 LaCl3",
+      "La + S → La2S3",
+      "La + N2 → LaN",
+      "La + CO2 → La2O3 + CO",
+      "La + SO2 → La2(SO3)3",
+      "La + HNO3 → La(NO3)3",
+      "La + H2SO4 → La2(SO4)3"
+    ],
+    "compounds_found": [
+      "PbLa", "CdLa", "CuLa", "FeLa", "MnLa", "ZnLa", "NiLa", "SbLa", "SnLa", "CrLa",
+      "La2O3", "La(OH)3", "LaCl3", "La2S3", "LaN", "La2(SO3)3", "La(NO3)3", "La2(SO4)3"
+    ]
+  },
+  {
+    "element": "Cerium (Ce)",
+    "reactions_with_heavy_metals": [
+      "Ce + Pb → PbCe",
+      "Ce + Cd → CdCe",
+      "Ce + Cu → CuCe",
+      "Ce + Fe → FeCe",
+      "Ce + Mn → MnCe",
+      "Ce + Zn → ZnCe",
+      "Ce + Ni → NiCe",
+      "Ce + Sb → SbCe",
+      "Ce + Sn → SnCe",
+      "Ce + Cr → CrCe"
+    ],
+    "reactions_with_environment": [
+      "4 Ce + 3 O2 → 2 Ce2O3",
+      "2 Ce + 6 H2O → 2 Ce(OH)3 + 3 H2",
+      "2 Ce + 6 HCl → 2 CeCl3 + 3 H2",
+      "2 Ce + 3 Cl2 → 2 CeCl3",
+      "Ce + S → Ce2S3",
+      "Ce + N2 → CeN",
+      "Ce + CO2 → Ce2O3 + CO",
+      "Ce + SO2 → Ce2(SO3)3",
+      "Ce + HNO3 → Ce(NO3)3",
+      "Ce + H2SO4 → Ce2(SO4)3"
+    ],
+    "compounds_found": [
+      "PbCe", "CdCe", "CuCe", "FeCe", "MnCe", "ZnCe", "NiCe", "SbCe", "SnCe", "CrCe",
+      "Ce2O3", "Ce(OH)3", "CeCl3", "Ce2S3", "CeN", "Ce2(SO3)3", "Ce(NO3)3", "Ce2(SO4)3"
+    ]
+  },
+  {
+    "element": "Neodymium (Nd)",
+    "reactions_with_heavy_metals": [
+      "Nd + Pb → PbNd",
+      "Nd + Cd → CdNd",
+      "Nd + Cu → CuNd",
+      "Nd + Fe → FeNd",
+      "Nd + Mn → MnNd",
+      "Nd + Zn → ZnNd",
+      "Nd + Ni → NiNd",
+      "Nd + Sb → SbNd",
+      "Nd + Sn → SnNd",
+      "Nd + Cr → CrNd"
+    ],
+    "reactions_with_environment": [
+      "4 Nd + 3 O2 → 2 Nd2O3",
+      "2 Nd + 6 H2O → 2 Nd(OH)3 + 3 H2",
+      "2 Nd + 6 HCl → 2 NdCl3 + 3 H2",
+      "2 Nd + 3 Cl2 → 2 NdCl3",
+      "Nd + S → Nd2S3",
+      "Nd + N2 → NdN",
+      "Nd + CO2 → Nd2O3 + CO",
+      "Nd + SO2 → Nd2(SO3)3",
+      "Nd + HNO3 → Nd(NO3)3",
+      "Nd + H2SO4 → Nd2(SO4)3"
+    ],
+    "compounds_found": [
+      "PbNd", "CdNd", "CuNd", "FeNd", "MnNd", "ZnNd", "NiNd", "SbNd", "SnNd", "CrNd",
+      "Nd2O3", "Nd(OH)3", "NdCl3", "Nd2S3", "NdN", "Nd2(SO3)3", "Nd(NO3)3", "Nd2(SO4)3"
+    ]
+  },
+  {
+    "element": "Samarium (Sm)",
+    "reactions_with_heavy_metals": [
+      "Sm + Pb → PbSm",
+      "Sm + Cd → CdSm",
+      "Sm + Cu → CuSm",
+      "Sm + Fe → FeSm",
+      "Sm + Mn → MnSm",
+      "Sm + Zn → ZnSm",
+      "Sm + Ni → NiSm",
+      "Sm + Sb → SbSm",
+      "Sm + Sn → SnSm",
+      "Sm + Cr → CrSm"
+    ],
+    "reactions_with_environment": [
+      "4 Sm + 3 O2 → 2 Sm2O3",
+      "2 Sm + 6 H2O → 2 Sm(OH)3 + 3 H2",
+      "2 Sm + 6 HCl → 2 SmCl3 + 3 H2",
+      "2 Sm + 3 Cl2 → 2 SmCl3",
+      "Sm + S → Sm2S3",
+      "Sm + N2 → SmN",
+      "Sm + CO2 → Sm2O3 + CO",
+      "Sm + SO2 → Sm2(SO3)3",
+      "Sm + HNO3 → Sm(NO3)3",
+      "Sm + H2SO4 → Sm2(SO4)3"
+    ],
+    "compounds_found": [
+      "PbSm", "CdSm", "CuSm", "FeSm", "MnSm", "ZnSm", "NiSm", "SbSm", "SnSm", "CrSm",
+      "Sm2O3", "Sm(OH)3", "SmCl3", "Sm2S3", "SmN", "Sm2(SO3)3", "Sm(NO3)3", "Sm2(SO4)3"
+    ]
+  }
+]

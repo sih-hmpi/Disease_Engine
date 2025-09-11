@@ -19,3 +19,23 @@
 8. PRECAUTIONS ENGINE WILL BE HELD DIFFERENT
 
 9. HEAVYMETAL COMPOUNDS (DERIVATTIVEIS ENGINE)
+
+// 710 ---->>>>> 10 MILLTION ++ (increase data)
+// FEED TO BIG DATA 
+
+// extend it 
+// disesaes severity, spread of  disease latiture longitude radis, ...............
+
+// 5.0 -> WHO -> "Severe Neurotoxicity", "Psychiatric Symptoms"
+//             -> FALANA DHIMKANA ->     FALANA DHIMKANA 
+//          DATA INGEST, DATA CHANGE, ENGINE MUTABLE, ENGINE RESPOND TO OTHER SERVICES(FE, BE, MS)
+// 
+// HEAVYMETAL COMPOUNDS(DERIVATTIVEIS ENGINE)  
+
+
+  // disesases severiyt number (adhd(7.2) and cancer(9.5))  // kaggle 
+
+          // (DATE : 19 2002)
+        // 2002 -2003  ---- format
+        
+      

@@ -36,9 +36,7 @@
           "diseases": ["Multiple Cancers (Skin, Lung, Bladder, Kidney)", "Blackfoot Disease (Severe Peripheral Vascular Disease)", "Death"],
           "health_effects": ["Very high risk of mortality from cancer or cardiovascular failure."],
           "symptoms": ["Gangrene in limbs", "Severe weight loss", "Organ failure"]
-        },
-        // (DATE : 19 2002)
-        // 2002 -2003
+        }
       ]
     },
     "Pb": {
@@ -701,21 +699,10 @@
           "diseases": ["Severe Neurotoxicity", "Psychiatric Symptoms"],
           "health_effects": ["Profound and debilitating damage to the central nervous system."],
           "symptoms": ["Hallucinations", "Aggression", "Severe Parkinsonism", "Inability to walk"]
-          // disesases severiyt number (adhd(7.2) and cancer(9.5))  // kaggle 
+
         }
       ]
     }
   }
 }
 
-// 710 ---->>>>> 10 MILLTION ++ 
-// FEED TO BIG DATA 
-
-// extend it 
-// disesaes severity, spread of  disease latiture longitude radis, ...............
-
-// 5.0 -> WHO -> "Severe Neurotoxicity", "Psychiatric Symptoms"
-//             -> FALANA DHIMKANA ->     FALANA DHIMKANA 
-//          DATA INGEST, DATA CHANGE, ENGINE MUTABLE, ENGINE RESPOND TO OTHER SERVICES(FE, BE, MS)
-// 
-// HEAVYMETAL COMPOUNDS(DERIVATTIVEIS ENGINE)  

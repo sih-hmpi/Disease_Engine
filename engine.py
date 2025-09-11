@@ -228,3 +228,15 @@ class HealthImpactEngine:
             'Elements_Above_Permissible_Limit': elements_above_limit,
             'Total_Elements_Tested': len(element_results)
         }
+    
+    def evaluate_bulk_samples(self, samples: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+            """
+            Evaluate a list of water samples (bulk input).
+            Each sample should be a dict as expected by evaluate_sample.
+            Returns a list of evaluation results.
+            """
+            bulk_results = []
+            for sample in samples:
+                result = self.evaluate_sample(sample)
+                bulk_results.append(result)
+            return bulk_results    

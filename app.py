@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 import logging
 from engine import HealthImpactEngine
 
@@ -66,11 +66,16 @@ class WaterSampleInput(BaseModel):
         # Allow extra fields
         extra = "allow"
 
+
 class HealthCheckResponse(BaseModel):
     """Response model for health check."""
     status: str
     message: str
     engine_loaded: bool
+
+class BulkEvaluationResponse(BaseModel):
+    """Response model for bulk evaluation results."""
+    results: List[Dict[str, Any]]
 
 class EvaluationResponse(BaseModel):
     """Response model for evaluation results."""
@@ -84,26 +89,20 @@ class EvaluationResponse(BaseModel):
     Results: Dict[str, Any]
     Summary: Optional[Dict[str, Any]] = None
 
-# Add a response model for root endpoint
-class RootResponse(BaseModel):
-    message: str
-    version: str
-    endpoints: Dict[str, str]
-
 # API Endpoints
 
-@app.get("/", response_model=RootResponse)
+@app.get("/", response_model=Dict[str, str])
 async def root():
     """Root endpoint with API information."""
-    return RootResponse(
-        message="Health Impact Engine API",
-        version="1.0.0",
-        endpoints={
+    return {
+        "message": "Health Impact Engine API",
+        "version": "1.0.0",
+        "endpoints": {
             "health_check": "GET /health-check",
             "evaluate": "POST /evaluate",
             "docs": "GET /docs"
         }
-    )
+    }
 
 @app.get("/health-check", response_model=HealthCheckResponse)
 async def health_check():
@@ -163,7 +162,47 @@ async def evaluate_water_sample(sample: WaterSampleInput):
         logger.error(f"Error evaluating sample: {e}")
         raise HTTPException(status_code=500, detail=f"Error evaluating sample: {str(e)}")
 
-@app.get("/rules")
+@app.post("/evaluate-bulk", response_model=BulkEvaluationResponse)
+async def evaluate_bulk_samples(samples: List[WaterSampleInput]):
+    """
+    Evaluate health risks for multiple water samples (bulk input).
+    Input: List of water sample data dicts
+    Output: List of risk assessments
+    """
+    if engine is None:
+        raise HTTPException(
+            status_code=500,
+            detail="Health Impact Engine is not properly initialized"
+        )
+    try:
+        # Convert each sample to dict and map fields
+        field_mapping = {
+            'Fe_ppm': 'Fe (ppm)',
+            'As_ppb': 'As (ppb)',
+            'U_ppb': 'U (ppb)',
+            'Pb_ppm': 'Pb (ppm)',
+            'Cd_ppb': 'Cd (ppb)',
+            'Cr_ppm': 'Cr (ppm)',
+            'Hg_ppb': 'Hg (ppb)'
+        }
+        sample_dicts = []
+        for sample in samples:
+            sample_dict = sample.dict(exclude_none=True)
+            for api_field, engine_field in field_mapping.items():
+                if api_field in sample_dict:
+                    sample_dict[engine_field] = sample_dict.pop(api_field)
+            sample_dicts.append(sample_dict)
+        # Evaluate bulk samples
+        results = engine.evaluate_bulk_samples(sample_dicts)
+        # Add summary statistics to each result
+        for result in results:
+            summary = engine.get_summary_statistics(result)
+            result['Summary'] = summary
+        logger.info(f"Successfully evaluated {len(results)} bulk samples.")
+        return BulkEvaluationResponse(results=results)
+    except Exception as e:
+        logger.error(f"Error in bulk evaluation: {e}")
+        raise HTTPException(status_code=500, detail=f"Error in bulk evaluation: {str(e)}")
 async def get_rules():
     """Get the current health rules (for debugging/reference)."""
     if engine is None:
